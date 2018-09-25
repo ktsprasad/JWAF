@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35495" started-at="2018-09-25T11:57:36Z" finished-at="2018-09-25T11:58:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35495" started-at="2018-09-25T11:57:36Z" finished-at="2018-09-25T11:58:11Z">
+      <class name="auto.testcases.TestWelcomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:auto.testcases.TestWelcomePage@5025a98f]" name="setUp" is-config="true" duration-ms="31703" started-at="2018-09-25T11:57:36Z" finished-at="2018-09-25T11:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWelcomePage()[pri:0, instance:auto.testcases.TestWelcomePage@5025a98f]" name="testWelcomePage" duration-ms="409" started-at="2018-09-25T11:58:07Z" finished-at="2018-09-25T11:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWelcomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:auto.testcases.TestWelcomePage@5025a98f]" name="teardown" is-config="true" duration-ms="3345" started-at="2018-09-25T11:58:08Z" finished-at="2018-09-25T11:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- auto.testcases.TestWelcomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
