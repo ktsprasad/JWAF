@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="auto.testcases.TestCheckboxPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="testToSelectAllCheckboxes"/>
+          <include name="setUp"/>
+          <include name="testCheckboxPage"/>
+          <include name="testCheckboxViaSmartWay"/>
+        </methods>
+      </class> <!-- auto.testcases.TestCheckboxPage -->
+      <class name="auto.testcases.TestWelcomePage">
+        <methods>
+          <include name="testWelcomePage"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestWelcomePage -->
+      <class name="auto.testcases.TestContextMenuPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="testChallengingPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestContextMenuPage -->
+      <class name="auto.testcases.TestFrame">
+        <methods>
+          <include name="testIFrame"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestFrame -->
+      <class name="auto.testcases.TestDynamicControls">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testDynamicControlsRemove"/>
+          <include name="testDynamicControlsAdd"/>
+        </methods>
+      </class> <!-- auto.testcases.TestDynamicControls -->
+      <class name="auto.testcases.TestFileUploader">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testFrame"/>
+        </methods>
+      </class> <!-- auto.testcases.TestFileUploader -->
+      <class name="auto.utility.Init">
+        <methods>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.utility.Init -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

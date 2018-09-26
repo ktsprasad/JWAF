@@ -1,18 +1,11 @@
 package auto.pages;
 
-/**
- * Created by: Anuj Kumar
- * Email: cdac.anuj@gmail.com
- * Date: 21-May-18
- */
-
-import auto.utility.Services;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
+import auto.utility.Services;
 import static org.testng.Assert.assertEquals;
 
 public class KeyPressesPage extends Services {

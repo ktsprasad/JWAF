@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="auto.testcases.TestDragAndDrop"/>
+      <class name="auto.testcases.TestAlert"/>
+      <class name="auto.testcases.TestCheckboxPage"/>
+      <class name="auto.testcases.TestContextMenuPage"/>
+      <class name="auto.testcases.TestFileUploader"/>
+      <class name="auto.testcases.TestHover"/>
+      <class name="auto.testcases.TestWelcomePage"/>
+      <class name="auto.testcases.TestLargeDeepDOM"/>
+      <class name="auto.testcases.TestFileDownloader"/>
+      <class name="auto.testcases.TestDynamicLoadings"/>
+      <class name="auto.testcases.TestLogin"/>
+      <class name="auto.testcases.TestDisappearingElementsPage"/>
+      <class name="auto.testcases.TestKeyPresses"/>
+      <class name="auto.testcases.TestDropdownPage"/>
+      <class name="auto.utility.Init"/>
+      <class name="auto.testcases.TestHorizontalSlider"/>
+      <class name="auto.testcases.TestMultipleWindows"/>
+      <class name="auto.testcases.TestDynamicControls"/>
+      <class name="auto.testcases.TestInfiniteScroll"/>
+      <class name="auto.testcases.TestChallengingDomPage"/>
+      <class name="auto.testcases.TestFrame"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

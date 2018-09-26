@@ -5,10 +5,9 @@ package auto.pages;
  * Date: 16-May-18
  */
 
-import auto.utility.Services;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-
+import auto.utility.Services;
 import static org.testng.Assert.assertEquals;
 
 public class ContextMenuPage extends Services {

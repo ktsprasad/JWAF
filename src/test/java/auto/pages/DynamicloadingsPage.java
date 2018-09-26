@@ -1,17 +1,10 @@
 package auto.pages;
 
-/**
- * Created by: Anuj Kumar
- * Email: cdac.anuj@gmail.com
- * Date: 21-May-18
- */
-
-import auto.utility.Services;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
+import auto.utility.Services;
 import static org.testng.Assert.assertEquals;
 
 public class DynamicloadingsPage extends Services {
